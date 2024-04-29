@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'some';
+  src: url('../fonts/some.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BeauRivage';
+  src: url('../fonts/BeauRivage-Regular.woff2') format('woff2'),
+    url('../fonts/BeauRivage-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Prata';
+  src: url('../fonts/Prata-Regular.woff2') format('woff2'),
+    url('../fonts/Prata-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

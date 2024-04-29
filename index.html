@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приглашение</title>
+  <link rel="stylesheet" href="./scss/style.css">
+  <link rel="stylesheet" href="./fonts/NK195.woff2">
+</head>
+
+<body class="lock">
+  <main>
+    <div class="splash">
+      <span class="splash__titles splash__titles-first">Вы</span>
+      <span class="splash__titles splash__titles-second">официально</span>
+      <span class="splash__titles splash__titles-third">приглашены</span>
+      <span class="splash__titles splash__titles-fourth">на свадьбу</span>
+    </div>
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__wrapper">
+          <span class="hero__names">Дайыр</span>
+          <span class="hero__names hero__names-midle">&</span>
+          <span class="hero__names">Даяна</span>
+        </div>
+      </div>
+    </section>
+    <section class="dear">
+      <div class="dear__container">
+        <h2 class="dear__title">Дорогие гости!</h2>
+        <p class="dear__text">
+          Наша <span>любовь</span> дала повод собрать всех родных и близких.
+        </p>
+        <p class="dear__text">
+          Мы открываем новую главу нашей жизни и приглашаем Вас разделить эту <span>радость</span> с нами!
+        </p>
+        <p class="dear__text">
+          Пусть наша свадьба останется для Вас ярким, теплым <span>воспоминанием.</span>
+        </p>
+        <span class="dear__names">Дайыр <span>&</span> Даяна</span>
+      </div>
+    </section>
+    <section class="date">
+      <div class="date__container">
+        <div class="date__wrapper">
+          <div class="date__img-wrapper">
+            <img class="date__img" src="./images/date-img.png" alt="">
+          </div>
+          <h2 class="date__title">21 июня 2024 год</h2>
+          <div class="date__calendar">
+            <img class="date__calendar-img" src="./images/date-calendar.svg" alt="">
+          </div>
+          <h2 class="date__title-start">Начало</h2>
+          <span class="date__time">17:00</span>
+          <span class="date__stick"></span>
+          <h2 class="date__title-address">Адрес</h2>
+          <span class="date__resto">Ресторан</span>
+          <a href="https://go.2gis.com/j0k9q" class="date__rest-name">«Altyn Palace»</a>
+          <a href="https://go.2gis.com/j0k9q" class="date__ur-address">Бишкек, ул. Горького 115</a>
+          <a class="date__link" href="https://go.2gis.com/j0k9q">
+            <img src="./images/2gis.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="timer">
+      <div class="timer__container">
+        <div class="timer__img-wrapper">
+          <div class="countdown-wrapper">
+            <h1 class="countdown-wrapper__title">До торжества осталось:</h1>
+            <div id="year" class="year"></div>
+            <div class="countdown-wrapper__inner" id=countdown>
+              <div class="countdown-wrapper__time">
+                <h2 id="days">00</h2>
+                <span>д :</span>
+              </div>
+              <div class="countdown-wrapper__time">
+                <h2 id="hours">00</h2>
+                <span>ч :</span>
+              </div>
+              <div class="countdown-wrapper__time">
+                <h2 id="minutes">00</h2>
+                <span>м :</span>
+              </div>
+              <div class="countdown-wrapper__time">
+                <h2 id="seconds">00</h2>
+                <span>с</span>
+              </div>
+            </div>
+            <div class="preloader" id="preloader">
+              <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="timer__title">Уважаемые гости!</h3>
+        <p class="timer__text">
+          Просим Вас подтвердить
+          Ваше присутствие на нашем празднике телефонным звонком
+          или
+          любым удобным
+          для вас способом.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
